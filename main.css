@@ -185,4 +185,91 @@
   width: 405px;
   color: #828282;
   font-size: 20px;
+}
+.section_4 {
+  background-color: #333333;
+  width: 100%;
+  height: 1066px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.section_4 .flex {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin: auto;
+}
+.section_4 .pictures {
+  margin: auto;
+  width: 60%;
+  margin-top: 80px;
+  background: #333333;
+  position: relative;
+}
+.section_4 .pictures .position {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+.section_4 .pictures .position .Podcast {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  vertical-align: middle;
+  color: #FFFFFF;
+  z-index: -1;
+}
+.section_4 .pictures .position .thebest {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 65px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  width: 433px;
+  color: #FFFFFF;
+  margin-top: 0px;
+}
+.section_4 .box {
+  width: 456px;
+  color: #FFFFFF;
+}
+.section_4 .box .when {
+  line-height: normal;
+}
+.section_4 .box .Jan {
+  margin-top: -20px;
+  line-height: normal;
+}
+.section_4 .box .Lorem {
+  line-height: normal;
+}
+.section_4 .left {
+  display: flex;
+  width: 615px;
+}
+.section_4 .left .when {
+  width: 373px;
+}
+.section_4 .left .colump {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+.section_4 .left .colump .when {
+  margin-top: -5px;
+}
+.section_4 .left .colump .Lorem {
+  margin-top: -10px;
+}
+.section_4 .Browse {
+  color: #6FCF97;
+  display: flex;
+  align-items: center;
+  height: 7px;
+  font-size: 18px;
+  position: absolute;
+  bottom: 60px;
+  right: 800px;
 }/*# sourceMappingURL=main.css.map */
