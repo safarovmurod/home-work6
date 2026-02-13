@@ -1,0 +1,38 @@
+.menu {
+  display: flex;
+  gap: 10px;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.menu_text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  display: flex;
+  gap: 30px;
+}
+
+.logo_flex {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.btn-1 {
+  width: 107px;
+  height: 32px;
+  border: 1px solid #2642F8;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #2642F8;
+}/*# sourceMappingURL=main.css.map */
