@@ -272,4 +272,45 @@
   position: absolute;
   bottom: 60px;
   right: 800px;
+}
+
+.section_5 {
+  width: 70%;
+  margin: auto;
+  margin-top: 80px;
+}
+.section_5 .tex_about {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #333333;
+  letter-spacing: 0%;
+  display: flex;
+  gap: 60px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.594);
+  padding-bottom: 40px;
+  width: 95%;
+  margin: auto;
+}
+.section_5 .tex_about .letest {
+  border-bottom: 4px solid #2642F8;
+}
+.section_5 .flexgroup {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.section_5 .box {
+  width: 336px;
+  margin-bottom: 50px;
+}
+.section_5 .box .when {
+  margin-top: -10px;
+}
+.section_5 .box .Jan {
+  margin-top: -10px;
+}
+.section_5 .box .Lorem {
+  margin-top: -10px;
 }/*# sourceMappingURL=main.css.map */

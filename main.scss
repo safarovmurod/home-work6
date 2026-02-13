@@ -362,3 +362,46 @@
         right: 800px;
     }
 }
+.section_5{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+  
+    .tex_about{
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+color: #333333;
+letter-spacing: 0%;
+display: flex;
+gap: 60px;
+border-bottom: 2px solid rgba(128, 128, 128, 0.594);
+padding-bottom: 40px;
+width: 95%;
+margin: auto;
+.letest{
+    border-bottom: 4px solid #2642F8;
+
+}
+
+    }
+    .flexgroup{
+          flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    }
+    .box{
+        width: 336px;
+        margin-bottom: 50px;
+        .when{
+            margin-top: -10px;
+        }
+        .Jan{
+            margin-top: -10px;
+        }
+        .Lorem{
+            margin-top: -10px;
+        }
+    }
+}
