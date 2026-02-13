@@ -5,10 +5,50 @@
     color: #333333;
 }
 
-@mixin color00000 {
+@mixin blog($f-zise: 14px) {
+    font-weight: 500;
+    font-size: $f-zise;
+    text-transform: capitalize;
     color: #000000;
 }
-.menu{
+
+@mixin moredata($fon-sizi: 44px) {
+    font-weight: 700;
+    font-size: $fon-sizi;
+    line-height: 55px;
+    vertical-align: middle;
+}
+
+@mixin lorem($f-siz: 18px, $color: #000000) {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+@mixin calendar($gap: 20px,$font-siz: 14px,$line-hig:20px ) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: $line-hig;
+    color:#828282 ;
+    display: flex;
+    gap: $gap;
+    font-size: $font-siz;
+    align-items: center;
+}
+.calendar{
+    @include calendar
+}
+.blog{
+@include blog;
+}
+.moredata{
+    @include moredata;
+    margin-top: -1px;
+}
+.Audience {
+   margin-top: -10px;
+}
+.menu {
     display: flex;
     gap: 10px;
     width: 60%;
@@ -18,15 +58,19 @@
     height: 100px;
 
 }
+
 .menu_text {
     @include text_color(#000000);
-    display: flex;gap: 30px;
+    display: flex;
+    gap: 30px;
 }
-.logo_flex{
+
+.logo_flex {
     display: flex;
     gap: 5px;
     align-items: center;
 }
+
 .btn-1 {
     width: 107px;
     height: 32px;
@@ -39,4 +83,15 @@
     vertical-align: middle;
     text-transform: capitalize;
     color: #2642F8;
+}
+.text{
+    width: 460px;
+
+}
+.section_1{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
 }
