@@ -203,3 +203,40 @@ height: auto;
                 margin-top: 75px;
             }
 }
+.section_3{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 70px;
+        .box{
+
+            .moredata{
+                font-size: 40px;
+                width: 497px;
+                line-height: normal;
+            }
+            .calendar{
+                .input{
+                    width: 360px;
+                    height: 40px;
+                    padding-left: 30px;
+                    border-radius: 8px;
+                }
+                .btn-2{
+                    width: 153px;
+                    height: 40px;
+                    background-color: #2642F8;
+                    color: aliceblue;
+                }
+            }
+        }
+        .box2{
+width: 405px;
+color: #828282;
+font-size: 20px;
+            .letyour{
+
+            }
+        }
+}
