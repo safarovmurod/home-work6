@@ -1,3 +1,33 @@
+.calendar {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #828282;
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.blog {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.moredata {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 55px;
+  vertical-align: middle;
+  margin-top: -1px;
+}
+
+.Audience {
+  margin-top: -10px;
+}
+
 .menu {
   display: flex;
   gap: 10px;
@@ -35,4 +65,16 @@
   vertical-align: middle;
   text-transform: capitalize;
   color: #2642F8;
+}
+
+.text {
+  width: 460px;
+}
+
+.section_1 {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
