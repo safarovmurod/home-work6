@@ -361,57 +361,66 @@
         right: 800px;
     }
 }
-.section_5{
+
+.section_5 {
     width: 70%;
     margin: auto;
     margin-top: 80px;
-  
-    .tex_about{
-font-weight: 500;
-font-size: 18px;
-line-height: 20px;
-color: #333333;
-letter-spacing: 0%;
-display: flex;
-gap: 60px;
-border-bottom: 2px solid rgba(128, 128, 128, 0.594);
-padding-bottom: 40px;
-width: 95%;
-margin: auto;
-.letest{
-    border-bottom: 4px solid #2642F8;
 
-}
+    .tex_about {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        color: #333333;
+        letter-spacing: 0%;
+        display: flex;
+        gap: 60px;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.594);
+        padding-bottom: 40px;
+        width: 95%;
+        margin: auto;
+
+        .letest {
+            border-bottom: 4px solid #2642F8;
+
+        }
 
     }
-    .flexgroup{
-          flex-wrap: wrap;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+
+    .flexgroup {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
     }
-    .box{
+
+    .box {
         width: 336px;
         margin-bottom: 50px;
-        .when{
+
+        .when {
             margin-top: -10px;
         }
-        .Jan{
+
+        .Jan {
             margin-top: -10px;
         }
-        .Lorem{
+
+        .Lorem {
             margin-top: -10px;
         }
     }
 }
-.section_6{
+
+.section_6 {
     display: flex;
     background-color: #2642F8;
     width: 100%;
     height: 440px;
     margin-top: 70px;
-    .box_s6{  
-        
+
+    .box_s6 {
+
         display: flex;
         gap: 10px;
         flex-direction: column;
@@ -419,28 +428,30 @@ margin: auto;
         margin: auto;
         align-items: center;
 
-          
-         .moredata {
+
+        .moredata {
             font-size: 40px;
             width: 760px;
             line-height: normal;
             color: #FFFFFF;
             text-align: center;
-           
+
         }
-        .Nocredit{
+
+        .Nocredit {
             display: flex;
             gap: 60px;
             align-items: center;
         }
-        .btn_3{
+
+        .btn_3 {
             width: 180px;
             height: 40px;
             background-color: #FFFFFF;
             color: #2642F8;
         }
 
-        .calendar{
+        .calendar {
             gap: 5px;
             font-size: 14px;
             font-weight: 300;
@@ -448,5 +459,42 @@ margin: auto;
             color: #FFFFFF;
         }
     }
- 
+
+}
+
+.footer {
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    .company {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        vertical-align: middle;
+        color: #000000;
+        .cpn{
+            font-size:24px;
+            font-weight: 500;
+        }
+.Upcoming{
+    margin-top: 70px;
+}
+.Cheung{
+    width: 159px;
+}
+    }
+
+}
+.text_end{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    
+    .flexx{
+        display: flex;
+        gap: 40px;
+    }
 }

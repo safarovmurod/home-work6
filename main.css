@@ -356,4 +356,40 @@
   font-weight: 300;
   vertical-align: middle;
   color: #FFFFFF;
+}
+
+.footer {
+  width: 70%;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .company {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: middle;
+  color: #000000;
+}
+.footer .company .cpn {
+  font-size: 24px;
+  font-weight: 500;
+}
+.footer .company .Upcoming {
+  margin-top: 70px;
+}
+.footer .company .Cheung {
+  width: 159px;
+}
+
+.text_end {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+}
+.text_end .flexx {
+  display: flex;
+  gap: 40px;
 }/*# sourceMappingURL=main.css.map */
